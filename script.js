@@ -109,7 +109,7 @@ function generatePassword() {
     option = specialCharacters;
     console.log(option);
   };
-  // for loop for random selection 
+  // add for loop for random selection 
   for (var i = 0; i < passwordLength; i++){
     var usersoptions = option[Math.floor(Math.random() * option.length)];
     emptyPassword.push(usersoptions);

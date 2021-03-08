@@ -27,7 +27,7 @@ var option;
 var emptyPassword = [];
 //generate password
 function generatePassword() {
-  //ask the user for the input 
+  //ask the user for his/her input 
   passwordLength=prompt("Number of characters in the password?");
   console.log("Password Length" + passwordLength);
 

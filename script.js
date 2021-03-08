@@ -30,7 +30,7 @@ function generatePassword() {
   //ask the user for his/her input 
   passwordLength=prompt("Number of characters in the password?");
   console.log("Password Length" + passwordLength);
-
+//prompts and cfiteria
   if(!passwordLength) {
     alert("expected value");
   
